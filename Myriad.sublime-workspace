@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"down\tBool"
+			],
+			[
+				"cand",
+				"candidateVerticalDirection\tUInt"
+			],
+			[
+				"can",
+				"canidateHorizontalDirection\tUInt"
+			],
+			[
+				"Arr",
+				"Arrows\tclass"
+			],
+			[
+				"A",
+				"Arrows\tclass"
+			],
+			[
+				"ca",
+				"candidateDirection"
+			],
+			[
+				"FL",
+				"FlxObject"
+			],
+			[
+				"B",
+				"BLUE\tflixel.util.FlxColor"
+			],
+			[
+				"Flx",
+				"FlxObject"
+			],
+			[
+				"F",
+				"FlxSprite\tclass"
+			],
+			[
+				"move",
+				"_movementQ\tArray<UInt>"
+			],
+			[
+				"U",
+				"UInt\tclass"
+			],
+			[
+				"T",
+				"TiledTileLayer"
+			],
+			[
+				"Tiled",
+				"TiledObject\tflixel.addons.editors.tiled"
+			],
+			[
+				"u",
+				"util\tpackage"
+			],
+			[
+				"ce",
+				"screenCenter(...)\tflixel.FlxObject"
+			],
+			[
+				"swi",
+				"switchState(...)\tVoid"
+			],
+			[
+				"TiledO",
+				"TiledObject\tclass"
+			],
+			[
+				"enti",
+				"entityData"
+			],
+			[
+				"entit",
+				"entityData"
+			],
+			[
+				"FlxV",
+				"FlxVelocity\tclass"
+			],
+			[
+				"ent",
+				"entityData"
+			],
+			[
+				"par",
+				"parseInt( x : String )\tNull<Int>"
+			],
+			[
+				"St",
+				"Std\tclass"
+			],
+			[
+				"_",
+				"_grpCoins\tvar"
+			],
+			[
+				"en",
+				"entityName\tvar"
+			],
+			[
+				"TiledOb",
+				"TiledObjectLayer\tclass"
+			],
+			[
+				"TiledTi",
+				"TiledTileLayer\tclass"
+			],
+			[
+				"FlxTile",
+				"FlxTilemap\tclass"
+			],
+			[
+				"el",
+				"elapsed"
+			],
+			[
+				"FlxC",
+				"FlxColor"
+			],
+			[
+				"Swi",
+				"switchState(...)\tVoid"
+			],
+			[
+				"FlxT",
+				"FlxText\tflixel.text"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/PlayState.hx",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/Player.hx",
+			"settings":
+			{
+				"buffer_size": 3143,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 112.0,
+		"last_filter": "Install",
+		"selected_items":
+		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/gmanjames/Documents/projects/Myriad"
+	],
+	"file_history":
+	[
+		"/home/gmanjames/Documents/projects/Myriad/Project.xml",
+		"/home/gmanjames/Documents/projects/Myriad/assets/data/level.tmx",
+		"/home/gmanjames/Documents/projects/Myriad/source/MenuState.hx",
+		"/home/gmanjames/Documents/projects/Myriad/source/Main.hx",
+		"/home/gmanjames/Documents/projects/FlixelTut/source/Main.hx",
+		"/home/gmanjames/Documents/projects/FlixelTut/source/Coin.hx",
+		"/home/gmanjames/haxelib/flixel/4,2,0/flixel/tile/FlxBaseTilemap.hx",
+		"/home/gmanjames/Documents/projects/FlixelTut/assets/data/room.tmx",
+		"/home/gmanjames/Documents/projects/FlixelTut/source/Player.hx",
+		"/home/gmanjames/haxelib/flixel-addons/2,2,0/flixel/addons/editors/tiled/TiledMap.hx",
+		"/home/gmanjames/Documents/projects/FlixelTut/Project.xml",
+		"/home/gmanjames/.bashrc"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Precedence",
+			"Priority",
+			"_downPriority",
+			"_upPrecedence",
+			"_upPriority",
+			"_upPriorit",
+			"InTile"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/PlayState.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/Player.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2891,
+								2891
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"haxe-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1935.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Myriad.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
