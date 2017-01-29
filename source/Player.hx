@@ -15,7 +15,7 @@ class Player extends FlxSprite
 	 * Scalar factor for how many pixels position should be
 	 * updated by.
 	 */
-	public var speed:Float = 2;
+	public var speed:Float = 4;
 
 	/**
 	 * _isMoving:
@@ -38,20 +38,6 @@ class Player extends FlxSprite
 	private var _rghtPriority:Int = 0;
 
 	/**
-	 * _horizontalStep:
-	 *
-	 * Movement in the left or right direction;
-	 */
-	 private var _horizontalStep:Int;
-
-	 /**
-	  * _verticalStep:
-	  *
-	  * Movement in the up or down direction.
-	  */
-	  private var _verticalStep:Int;
-
-	/**
 	 * _movementQ:
 	 *
 	 * If another direction is requested while the player is
@@ -67,15 +53,12 @@ class Player extends FlxSprite
 	 */
 	 private var _framesLeftUntilPoll:Int;
 
-	 private var _nextToQueue:UInt;
-
 
 	public function new(?X:Float=0, ?Y:Float=0)
 	{
 		super(X, Y);
 
 		makeGraphic(32, 32, FlxColor.BLUE);
-		_nextToQueue = FlxObject.NONE;
 	}
 
 	override public function update(elapsed:Float):Void
@@ -155,26 +138,6 @@ class Player extends FlxSprite
 		{
 			pollMovement(FlxObject.RIGHT);
 		}
-		
-		// if (up)
-		// {
-		// 	pollMovement(FlxObject.UP);
-		// }
-
-		// if (down)
-		// {
-		// 	pollMovement(FlxObject.DOWN);
-		// }
-
-		// if (left)
-		// {
-		// 	pollMovement(FlxObject.LEFT);
-		// }
-
-		// if (rght)
-		// {
-		// 	pollMovement(FlxObject.RIGHT);
-		// }
 
 		if (_isMoving)
 		{
@@ -225,7 +188,7 @@ class Player extends FlxSprite
 		{
 			_movementQ.push(candidateDirection);
 
-			_framesLeftUntilPoll = 7;
+			_framesLeftUntilPoll = 4;
 		}
 		else if (_framesLeftUntilPoll > 0)
 		{
